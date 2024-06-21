@@ -10,11 +10,11 @@ function ProductView() {
     <>
       <div className="view-container">
         <div className="img">
-          <img src={selectedProd.Img.mainImg} className="main-img" />
-          <img src={selectedProd.Img.secImg} className="sub-img" />
-          <img src={selectedProd.Img.thirdImg} className="sub-img" />
-          <img src={selectedProd.Img.fourthImg} className="sub-img" />
-          <img src={selectedProd.Img.fifthImg} className="sub-img" />
+          <img src={selectedProd.Img.mainImg} className="main-img" alt="img" />
+          <img src={selectedProd.Img.secImg} className="sub-img" alt="img" />
+          <img src={selectedProd.Img.thirdImg} className="sub-img"  alt="img"/>
+          <img src={selectedProd.Img.fourthImg} className="sub-img" alt="img" />
+          <img src={selectedProd.Img.fifthImg} className="sub-img" alt="img" />
         </div>
 
 
