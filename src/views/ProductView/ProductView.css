@@ -1,0 +1,47 @@
+body{
+    background-color: #fff;
+}
+.view-container{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    margin-left: 80px;
+}
+.main-img{
+    height: 400px;
+    display: block;
+}
+.sub-img{
+    height: 80px;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+.description{
+    width: 50%;
+}
+.desc-price{
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-main{
+    margin-top: 40px;
+}
+.about{
+    font-size: 20px;
+    background-color: #ffd814;
+    padding: 5px 10px;
+    width: 170px;
+    border-radius: 10px;
+}
+.about-title{
+    font-weight: bold;
+}
+.about-desc{
+    font-size: 18px;
+}
+.about-btn{
+    margin-top: 20px;
+    width: 300px;
+    font-size: 15px;
+}
